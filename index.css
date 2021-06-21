@@ -1,11 +1,21 @@
 @font-face {
   font-family: 'NotoSansJP-Regular';
   src: url("fonts/Noto_Sans_JP/NotoSansJP-Regular.otf");
+  font-family: 'NotoSansJP-Black';
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-Black.otf");
+  font-family: 'NotoSansJP-Bold';
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-Bold.otf");
+  font-family: 'NotoSansJP-Light';
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-Light.otf");
+  font-family: 'NotoSansJP-Medium';
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-Medium.otf");
+  font-family: 'NotoSansJP-Thin';
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-Thin.otf");
 }
 
 h1 {
   text-align: center;
-  font-family: NotoSansJP-Regular;
+  font-family: NotoSansJP-Thin;
 }
 
 p {
@@ -18,6 +28,61 @@ p {
 
 #logo {
   width: 10%;
-  height: 10%;
+  height: 10vh;
+}
+
+ul {
+  font-family: NotoSansJp-Thin;
+  text-align: left;
+}
+
+nav {
+  width: 80%;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  position: relative;
+}
+
+.logo {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.nav-links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  font-size: larger;
+  color: grey;
 }
 /*# sourceMappingURL=index.css.map */
