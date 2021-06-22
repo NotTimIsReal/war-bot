@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family:'NotoSansJP-Regular' ;
+    src: url('/Fonts/Noto_Sans_JP/NotoSansJP-Regular.otf');
+    font-family: 'NotoSansJP-Black';
+    src: url("/Fonts/Noto_Sans_JP/NotoSansJP-Black.otf");
+    font-family: 'NotoSansJP-Bold';
+    src: url("/Fonts/Noto_Sans_JP/NotoSansJP-Bold.otf");
+    font-family: 'NotoSansJP-Light';
+    src: url("/Fonts/Noto_Sans_JP/NotoSansJP-Light.otf");
+    font-family: 'NotoSansJP-Medium';
+    src: url("/Fonts/Noto_Sans_JP/NotoSansJP-Medium.otf");
+    font-family: 'NotoSansJP-Thin';
+    src: url("/Fonts/Noto_Sans_JP/NotoSansJP-Thin.otf");
+}
+@font-face {
+    font-family:'Mukta-Bold' ;
+    src: url('/Fonts/Mukta/Mukta-Bold.ttf');
+    font-family: 'Mukta-ExtraBold';
+    src: url("/Fonts/Mukta/Mukta-ExtraBold.ttf");
+    font-family: 'Mukta-ExtraLight';
+    src: url("/Fonts/Mukta/Mukta-ExtraLight.ttf");
+    font-family: 'Mukta-Light';
+    src: url("/Fonts/Mukta/Mukta-Light.ttf");
+    font-family: 'Mukta-Medium';
+    src: url("/Fonts/Mukta/Mukta-Medium.ttf");
+    font-family: 'Mukta-Regular';
+    src: url("/Fonts/Mukta/Mukta-Regular.ttf");
+    font-family: 'Mukta-SemiBold';
+    src:url('/Fonts/Mukta/Mukta-SemiBold.ttf')
+}
+
+
+h1{
+    text-align: center;
+    font-family: NotoSansJP-Thin;
+}
+
+.nav-links{
+    text-align: left;
+}
+#logo{
+    width: 10%;
+    height: 10vh;
+
+}
+ul{
+    font-family: NotoSansJp-Thin;
+    text-align: left;
+}
+
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.main{
+    position: relative;
+
+}
+.logo{
+    flex-basis: 75%;
+}
+.logo img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.nav-links ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+
+
+}
+ul:hover{
+    font-size: larger;
+    color:grey;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: Mukta-ExtraLight;
+
+}
